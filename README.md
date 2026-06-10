@@ -57,7 +57,7 @@ npm install
 ### Create .env
 
 ```env
-PORT=5000
+PORT=3000
 
 MONGO_URI=your_mongodb_connection_string
 ```
@@ -71,6 +71,8 @@ npm run dev
 Server starts at:
 
 ```text
+https://quickslot-5.onrender.com
+or
 http://localhost:5000
 ```
 
