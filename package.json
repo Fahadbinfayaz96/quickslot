@@ -1,8 +1,11 @@
 {
-"scripts": {
-  "start": "node src/server.js",
-  "dev": "nodemon src/server.js"
-},
+    "type": "module",
+  "name": "quickslot",
+  "version": "1.0.0",
+  "description": "A booking system for venues and time slots.",
+ "scripts": {
+    "dev": "node --watch server.js"
+  },
   
   "dependencies": {
     "cors": "^2.8.6",
