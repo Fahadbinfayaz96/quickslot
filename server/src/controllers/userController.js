@@ -1,5 +1,9 @@
 import { USERS } from "../constants/users.js";
 
 export const getUsers = (req, res) => {
-  res.status(200).json(USERS);
+  try {
+    res.status(200).json(USERS);
+  } catch (error) {
+    console.error("Error fetching users:", error);
+  }
 };
